@@ -130,7 +130,7 @@ Contributions are what make the open source community such an amazing place to b
 
 Daniel Rodriguez - rodriguez.da@ufl.edu
 
-Project Link: [https://github.com/uf-eel6825-sp23/final-project-code-Danielr1312](https://github.com/uf-eel6825-sp23/final-project-code-Danielr1312)
+Project Link: [https://github.com/Danielr1312/Reinforcement_Learning_Projects/tree/main/CartPole_DQN_v_PPO](https://github.com/Danielr1312/Reinforcement_Learning_Projects/tree/main/CartPole_DQN_v_PPO)
 
 
 ## Acknowledgements
