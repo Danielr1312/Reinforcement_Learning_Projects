@@ -1,13 +1,7 @@
-<!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -23,13 +17,10 @@
 </details>
 
 
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 This project aims to compare the performance of two Reinforcement Learning (RL) methods. The two methods to be compared are a Deep Q-Learning Network (DQN) and a Multi-layer Perceptron (MLP) with Proximal Policy Optimization (PPO). The algorithms were applied to the common [CartPole](https://www.gymlibrary.dev/environments/classic_control/cart_pole/) control problem through Open-AI Gym. Two kinds of DQNs were considered: one without replay and one with replay. The primary metric for comparison was the number of episodes required to solve CartPole where "solving" CartPole is defined as an average reward greater than 195 for the last 100 episodes. Experimental evidence shows that PPO performs better than the DQN in terms of the number of episodes required to solve CartPole and the amount of time it takes to train the model. In addition, although not quantified, the PPO model had better stability during training.
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 ### Dependencies
@@ -47,7 +38,6 @@ In order to avoid having to list out all of the dependencies needed for this rep
   conda env create -f environment.yml
   ```
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
 There are two primary ways to interact with this project. The file 'Pattern Rec Project.ipynb' is the primary method. The file 'main.py' is used primarily for conducting experiments. Note, running main.py can take a long time since we experiment with many hyperparameters, so you'll probably want to not run it on your local machine.
@@ -125,7 +115,6 @@ ppo_experiments = {
 Note that, if the files already exist, the ```run_experiments_fn()``` will skip them.
 
 
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -137,7 +126,6 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-<!-- Authors -->
 ## Authors
 
 Daniel Rodriguez - rodriguez.da@ufl.edu
@@ -145,7 +133,6 @@ Daniel Rodriguez - rodriguez.da@ufl.edu
 Project Link: [https://github.com/uf-eel6825-sp23/final-project-code-Danielr1312](https://github.com/uf-eel6825-sp23/final-project-code-Danielr1312)
 
 
-<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Catia Silva](https://faculty.eng.ufl.edu/catia-silva/)
 
